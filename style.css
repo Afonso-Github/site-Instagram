@@ -122,7 +122,7 @@
     background-color: #FFFFFF;
     border-bottom: 1px solid #DBDBDB;
     position: fixed;
-    z-index: 2;
+    z-index: 4;
 }
 
 .barra-topo img{
@@ -138,7 +138,7 @@
     display: flex;
     justify-content: space-between;
     width: 120px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .stories-total{
