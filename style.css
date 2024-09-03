@@ -117,7 +117,7 @@
 }
 
 .barra-topo{
-    width: 100%;
+    width: 1366px;
     height: 54px;
     background-color: #FFFFFF;
     border-bottom: 1px solid #DBDBDB;
@@ -248,6 +248,10 @@
 @media(max-width:935px){
     .barra-lateral{
         display: none;
+    }
+
+    .barra-topo{
+        width: 935px;
     }
     .post1{
         transform: translate(-50%,);
