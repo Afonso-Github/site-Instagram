@@ -128,13 +128,13 @@
 .barra-topo img{
     width: 103px;
     margin-left: 214px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .barra-topo-simbolos{
     position: fixed;
-    margin-left: 950px;
-    margin-top: 20px;
+    margin-left: 60REM;
+    margin-top: 1REM;
     display: flex;
     justify-content: space-between;
     width: 120px;
@@ -144,13 +144,16 @@
 .stories-total{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 650px;
+    width: 612px;
     height: 118px;
     background-color: #FFFFFF;
     margin-top: 0;
     position: relative;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .stories-laco{
@@ -161,6 +164,8 @@
     margin-left: 214px;
     width: 612px;
     top: 88px;
+    background-color: white;
+    z-index: 3;
 }
 
 .stories{
@@ -171,6 +176,7 @@
     width: 56px;
     height: 56px;
     line-height: 40px;
+    margin-left: 24px;
 }
 
 .stories-total h1{
