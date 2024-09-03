@@ -1,0 +1,249 @@
+*{
+    font-family: roboto;
+}
+
+.conteudo-pagina{
+    position: relative;
+    width: 1366px;
+    height: 1984px;
+    background-color: #FAFAFA;
+}
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 88px;
+    right: 232px;
+    width: 300px;
+    z-index: 2;
+    background-color: #FAFAFA;
+}
+
+.barra-lateral-perfil{
+    display: flex;
+    flex-direction: row;
+    font-family: roboto;
+    line-height: 1px;
+    margin-top: 35px;
+    margin-left: 20px;  
+}
+
+.barra-lateral-perfil h1{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.barra-lateral-perfil p{
+    font-size: 14px;
+    font-weight: 280;
+    color: #8E8E8E;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.barra-lateral-perfil img{
+    width: 56px;
+    height: 56px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.barra-lateral-sugestoes{
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    right: 10px;
+    margin-left: 20px; 
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.barra-lateral-sugestoes img{
+    width: 32px;
+    height: 32px;
+    border-radius: 30px 30px 30px 30px;
+    margin: 6px;
+}
+
+.barra-lateral-sugestoes h1{
+    font-size: 10px;
+    color: #8E8E8E;
+}
+
+.barra-lateral-nicknames{
+    position: absolute;
+    left: 45px;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 215px;
+    color: black;
+}
+
+.barra-lateral-nicknames h1{
+    color: black;
+}
+
+.barra-lateral-seguir{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    height: 215px;
+    justify-content: space-around;
+}
+
+.barra-lateral-seguir h1{
+    color: #139EF2
+}
+
+.barra-lateral-legenda{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-family: roboto;
+    color: #C7C7C7;
+    margin-left: 20px; 
+    width: 250px;
+    right: 216px;
+    top: 88px;
+    word-break: break-all;
+    text-align: left;
+}
+
+.barra-topo{
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DBDBDB;
+    position: relative;
+    z-index: 1;
+}
+
+.barra-topo img{
+    width: 103px;
+    height: 29px;
+    margin-left: 214px;
+    margin-top: 10px;
+}
+
+.barra-topo-simbolos{
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    z-index: 1;
+}
+
+.stories-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    margin-left: 214px;
+    width: 650px;
+    height: 118px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    border: 2px solid #DBDBDB;
+}
+
+.stories{
+    text-align: center;
+}
+
+.stories-total img{
+    width: 56px;
+    height: 56px;
+    line-height: 40px;
+}
+
+.stories-total h1{
+    font-size: 10px;
+}
+
+.post1{ 
+    background-color: #FFFFFF;
+    padding-bottom: 44px;
+    padding-top: 61px; 
+    margin-left: 214px;
+    position: relative;
+    border: 1px, solid, #DBDBDB;
+    width: 612px;
+}
+
+.post1 img{
+    width: 612px;
+    height: 612px;
+}
+
+.post2{ 
+    background-color: #FFFFFF;
+    padding-bottom: 44px;
+    padding-top: 61px; 
+    margin-left: 214px;
+    position: relative;
+    border: 1px, solid, #DBDBDB;
+    width: 612px;
+    margin-top: 60px;
+}
+
+.post2 img{
+    width: 612px;
+    height: 612px;
+}
+
+
+.legenda-superior{
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.legenda-superior img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.legenda-inferior{
+    left:3px;
+    top: 680px;
+    width: 580px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.legenda-inferior-salvar{
+    padding-left: 450px;
+}
+
+@media(max width:935px){
+    .barra-lateral{
+        display: none;
+    }
+    .post1{
+        place-items: center;
+        left: 50%;
+        right: 50%;
+    }
+    .post2{
+        place-items: center;
+        left: 50%;
+        right: 50%;
+    }
+}
+
